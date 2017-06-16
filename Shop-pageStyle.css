@@ -1,0 +1,204 @@
+body {
+  background: #eee;;
+  font-family: Arial;
+  }
+
+.image-header {
+  margin-top: -20px;
+  margin-left: -50px;
+  }
+
+.header-nav-list--item-link {
+  font-family: Cambria;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+ }
+
+.header-nav-list--item-link:hover {
+  opacity: 0.5;
+ }
+
+.header-nav-list--item{
+  display: inline-block;
+  padding: 5px;
+ }
+
+.header-nav-list{
+  border-bottom: 2px solid black;
+ }
+
+ul.submenu > li {
+  display: block;
+ }
+
+ul.submenu{
+  display: none;
+ }
+
+ul.submenu >li> a{
+  color: black;
+  float: left;
+  text-decoration: none;
+  padding: 5px;
+ }
+
+ul.header-nav-list > li:hover > ul.submenu {
+  display: block;
+ }
+
+ul.submenu >li> a:hover {
+  opacity: 0.5;
+ }
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+ }  
+
+.Title {
+  display: block;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 150px;
+  letter-spacing: 5px;
+  }
+
+.menu-shop-img{
+  width: 150px;
+  height: 100px;
+  margin-left: 10px;
+  margin-bottom: -30px;
+  float: right;
+  letter-spacing: 3px;
+  }
+
+.menu-shop-img:hover{
+  position:relative;
+  -webkit-transform: scale(3);
+  -ms-transform: scale(3);
+  transform: scale(3);
+  }
+
+.menu-shop-item{
+  margin-top: 50px;  
+  }
+
+.menu-shop-list {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  }
+
+.price-shop{
+  color: #982041;
+  margin-left: 70px; 
+  display: block;
+  font-size: 20px;
+  }
+
+.buy{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin-left: 60px;
+  padding: 5px;
+  border: double 2px;
+  font-size: 15px;
+  }
+
+.buy:hover {
+  color: red;
+  }
+
+.menu-shop-men{
+  display: block;
+  float: left;
+  width: 550px;
+  height: auto;
+  }
+
+.menu-shop-women{
+  display: block;
+  float: right;
+  margin-left: 50px;
+  width: 550px;
+  height: auto;
+  }
+
+.Shop-of-Tennis {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  }
+
+.cart-img{
+  width: 100px;
+  height: 80px;
+  }
+
+.cart-block{
+  margin-left: 20px;
+  border: 1px solid black;
+  height: 130px;
+  flex-grow: 100%;
+  flex-basic: 100%;
+  display: block;
+  
+  }
+
+.cart-block >p {
+  font: 16px sans-serif;
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 150px;
+  border: 1px solid #EE6475;
+  margin: 0;
+  padding-left: 5px;
+  background-color: #EE6475;
+  color: white;
+  }
+
+.cart-block > div {
+  border: 1px solid #F8C0C6;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: -1px;
+  }
+
+.cart-block > div >p {
+  font: 15px sans-serif;
+  margin: 5px;
+  color: #B94848;  
+  }
+
+.cart-block > div >p > span {
+  font: 18px sans-serif;
+  display: block;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: -18px;
+  color: black; 
+  }
+
+.cart-block > div >a {
+  font: 14px sans-serif;
+  display: inline-block;
+  padiing: 4px;
+  border: 1px solid #E2E2E2;
+  margin-left: 5px;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #E9E9E9;
+  color: black; 
+  }
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 15px;
+  }
+

@@ -1,0 +1,71 @@
+body {
+ background-image: url(https://images7.alphacoders.com/734/thumb-1920-734192.jpg);
+ }
+
+header {
+ color: #982041;
+ background: #a5a50c;
+ text-align: center;
+ border: 3px solid green;	
+ }
+
+.menu-text {
+ color: #982041;
+ font-size: 60px;
+ text-shadow: #982041 3px 2px;
+ padding: 20px; 
+ }
+
+.menu-img {
+ width: 150px;
+ height: 100px;
+ Left: 20px;
+ padding: 5px 5px 5px;
+ margin-bottom: -15px;  
+ }
+
+.header-nav-list--item {
+ padding: 5px;
+ display: inline-block;
+ font-family: Arial;
+ }
+
+.header-nav-list{
+ text-align: center;
+ font-weight: bold;
+ font-size: 24px;
+ }
+.header-nav-list--item-link-used {
+ text-decoration-style: wavy;
+ }
+
+.menu-cort-img {
+ width: 250px;
+ height: 150px;
+ margin-left: 30px;
+ margin-bottom: -20px;
+ text-align: center;
+ }
+
+.menu-accadem-list-used {
+ font-size: 20px;
+ }
+
+.menu-cort-ukraine {
+ margin: 20;
+ line-height: 5;
+ }
+
+.Title {
+  font-size: 40px;
+  margin-left: 200px;
+  color: #982041;
+  text-shadow: #982041 3px 2px;
+  letter-spacing: 5px;
+  }
+
+.menu-accadem-list{
+  margin-left: 150px;
+  font-size: 20px;
+  }
+
