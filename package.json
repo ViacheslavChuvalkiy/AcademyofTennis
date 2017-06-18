@@ -1,0 +1,22 @@
+{
+  "name": "academtennis",
+  "version": "1.0.0",
+  "description": "start",
+  "main": "academtennis-js.js",
+  "scripts": {
+    "test": "yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViacheslavChuvalkiy/AcademyofTennis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViacheslavChuvalkiy/AcademyofTennis/issues"
+  },
+  "homepage": "https://github.com/ViacheslavChuvalkiy/AcademyofTennis#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
