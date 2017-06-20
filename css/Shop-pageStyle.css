@@ -1,12 +1,12 @@
 body {
   background: #eee;;
   font-family: Arial;
-  }
+ }
 
 .image-header {
   margin-top: -20px;
   margin-left: -50px;
-  }
+ }
 
 .header-nav-list--item-link {
   font-family: Cambria;
@@ -62,7 +62,7 @@ footer {
   display: block;
   font-size: 30px;
   margin-top: 30px;
-  margin-left: 150px;
+  margin-left: 100px;
   letter-spacing: 5px;
   }
 
@@ -134,19 +134,12 @@ footer {
   width: 100%;
   }
 
-.cart-img{
-  width: 100px;
-  height: 80px;
-  }
-
 .cart-block{
   margin-left: 20px;
   border: 1px solid black;
+  width: auto;
   height: 130px;
-  flex-grow: 100%;
-  flex-basic: 100%;
   display: block;
-  
   }
 
 .cart-block >p {

@@ -1,0 +1,151 @@
+body {
+  background: #eee;;
+  font-family: Arial;
+ }
+
+.image-header {
+  margin-top: -20px;
+  margin-left: -50px;
+ }
+
+.header-nav-list--item-link {
+  font-family: Cambria;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+ }
+
+.header-nav-list--item-link:hover {
+  opacity: 0.5;
+ }
+
+.header-nav-list--item{
+  display: inline-block;
+  padding: 5px;
+ }
+
+.header-nav-list{
+  border-bottom: 2px solid black;
+  text-align: center;
+ }
+
+ul.submenu > li {
+  display: block;
+ }
+
+ul.submenu{
+  display: none;
+ }
+
+ul.submenu >li> a{
+  color: black;
+  float: left;
+  text-decoration: none;
+  padding: 5px;
+ }
+
+ul.header-nav-list > li:hover > ul.submenu {
+  display: block;
+ }
+
+.header-nav-list--item-link:hover {
+  opacity: 0.5;
+}
+
+ul.submenu >li> a:hover {
+  opacity: 0.5;
+ }
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+ }   
+
+.menu-text {
+  color: #982041;
+  font-size: 60px;
+  text-shadow: #982041 3px 2px;
+  padding: 20px;
+  letter-spacing: 5px;
+  margin-left: 50px;
+  }
+
+.menu-img {
+ width: 150px;
+ height: 100px;
+ Left: 20px;
+ padding: 5px 5px 5px;
+ margin-bottom: -15px;  
+ }
+
+.header-nav-list--item-link {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  }
+
+.header-nav-list--item{
+  display: inline-block;
+  padding: 5px;
+  }
+
+.menu-academ-img {
+ display: block;
+ width: 200px;
+ height: 100px;
+ float: right;
+ margin-right: 400px;
+ }
+
+.Accadems-of-Tennis {
+  display: flex;
+  }
+
+.menu-accadem-ukraine {
+ line-height: 7;
+ font-weight: bold;
+ display: block;
+ width: 100%;
+ }
+
+.menu-accadem-other {
+  display: block;
+  width: 100%;
+  line-height: 7;
+  margin-left: -70px;
+  }
+
+.Title {
+  display: block;
+  float: left;
+  font-size: 30px;
+  padding: 15px;
+  margin-top: 30px;
+  letter-spacing: 5px;
+  }
+
+.menu-accadem-list-used-other {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 50px;
+  color: black;
+  }
+
+.menu-accadem-list-used{
+  color: black;
+  font-size: 17px;
+}
+
+.menu-accadem-list-other {
+  font-weight: bold;
+  font-size: 17px;
+  }
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 15px;
+  }

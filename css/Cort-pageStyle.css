@@ -65,39 +65,44 @@ footer {
   margin-top: 30px;
   letter-spacing: 7px;
   text-align: center;
- }
+  }
 
 .Corts-of-Kiev{
-  display: block;  
+  display: flex;  
+  text-align: center;
+  width: 100%;
  }
 
-ul.menu-cort {
- text-align: center;
-  display: inline-block;
+.menu-cort {
+  display: block;
  }
 
 .menu-cort-img {
-  width: 250px;
-  height: 150px;
-  display: block;
-  text-align: center;
-  margin-left: 100px;
+ width: 250px;
+ height: 150px;
+ display: block;
+ text-align: center;
+ margin-left: 100px;
  }
 
 .menu-cort-used {
-  font-size: 20px;
-  color: black;
-  line-height: 5;
-  text-decoration: none;
+ display: inline-block;
+ width: auto;
+ height: 100px;
+ font-size: 20px;
+ color: black;
+ line-height: 5;
+ text-decoration: none;
  }
 
 .menu-cort-list {
-  margin-left: 150px;
-  font-size: 20px;
-  list-style-type: none;
-  width: 400px;
-  height: 300px;
-  padding: 10px;
-  float: left;
+ display: block;
+ margin-left: 150px;
+ font-size: 20px;
+ list-style-type: none;
+ width: auto;
+ height: auto;
+ padding: 10px;
+ float: left;
  }
 

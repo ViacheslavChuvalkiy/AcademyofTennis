@@ -1,12 +1,13 @@
 {
   "name": "academtennis",
   "version": "1.0.0",
-  "description": "",
   "main": "cart-js.js",
   "dependencies": {
     "gulp": "^3.9.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/ViacheslavChuvalkiy/AcademyofTennis/issues"
   },
-  "homepage": "https://github.com/ViacheslavChuvalkiy/AcademyofTennis#readme"
+  "homepage": "https://github.com/ViacheslavChuvalkiy/AcademyofTennis#readme",
+  "description": ""
 }
