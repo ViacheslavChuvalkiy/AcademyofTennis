@@ -3,21 +3,21 @@ const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const concat = require('gulp-concat');
 const debug = require('gulp-debug');
-const sourcesmaps = require('gulp-sourcesmaps');
+const del = require('del');
 
-
-gulp.task('html',() => {
-    gulp.src('src/index.html', 'page/**.*.html')
-    .pipe(concat('allpage.html'))
-    .pipe(gulp.dest('public'));
+gulp.task('html', function() {
+    gulp.src('**/**/**.html')
+        .pipe(debug({title: 'html'}))
+        .pipe(gulp.dest('public'))
+        .pipe(debug({title: 'dest-html'}));
 });
 
-gulp.task('css',() => {
-    gilp.src('css/main.less')
-    .pipe(sourcesmaps.init())
-    .pipe(debug({title: 'src'}))
-    .pipe(less())
-    .pipe(debug({title: 'less'}))
+gulp.task('clean', function() {
+    return del('public/node_modules');
+});
+
+gulp.task('css', function () {
+    gulp.src('css/**.css')
     .pipe(concat('all.css'))
     .pipe(debug({title: 'concat'}))
     .pipe(autoprefixer({
@@ -26,14 +26,14 @@ gulp.task('css',() => {
     .pipe(debug({title: 'prefixer'}))
     .pipe(cleanCSS({compotibility: 'ie9'}))
     .pipe(debug({title: 'compotibility'}))
-    .pipe(gulp.dest('public'));
+    .pipe(gulp.dest('public/css'))
+    .pipe(debug({title: 'dest-css'}));
 });
 
-gulp.task('default', ['html', 'css'], () => {
+gulp.task('default', ['html', 'clean', 'css'], function() {
       gulp.watch('src/index.html', ['html']);
-      gulp.watch('css/**.*.less', ['less']);
+      gulp.watch('css/**.*.css', ['css']);
 });
-
 
 
 
