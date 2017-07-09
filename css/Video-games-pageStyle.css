@@ -3,17 +3,21 @@ body {
   font-family: Arial;
  }
 
-.image-header {
-  margin-top: -20px;
-  margin-left: -50px;
+.logo {
+  display: block;
+  position: relative;
+  left: 5px;
+  padding: 0px;
+  width: 26%;
+  max-width: 120px;
+  height: auto;
  }
 
 .header-nav-list--item-link {
-  font-family: Cambria;
-  font-size: 20px;
+  font-family: Ubuntu;
+  font-size: 19px;
   color: black;
   text-decoration: none;
-  margin-left: 20px;
  }
 
 .header-nav-list--item-link:hover {
@@ -22,19 +26,77 @@ body {
 
 .header-nav-list--item{
   display: inline-block;
-  padding: 5px;
+  padding: 2px;
  }
 
 .header-nav-list{
+  width: 100%;
+  height: auto;
   border-bottom: 2px solid black;
+  text-align: center;
+  margin-left: -10px;
  }
+ 
+@media screen and (min-width:100px) and (max-width:412px) {
+ .header-nav-list {
+  display: flex !important;
+  font-size: 11px !important;
+  border-bottom: none;
+  margin-right: 25px;
+  margin-left: -50px;
+ }
+  
+ .header-nav-list--item-link {
+  font-size: 14px !important; 
+  margin: 0px;
+ }
+ 
+.video-lessons {
+  text-align: center !important;
+  margin-left: 100px !important;
+ }  
+}
+
+@media screen and (min-width:412px) and (max-width:568px) {
+ .header-nav-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  border-bottom: none;
+  margin-left: -50px;
+  margin-right: 5px;
+  letter-spacing: 1px !important;
+ }
+  
+ .header-nav-list--item-link {
+  font-size: 16px !important; 
+  margin: 0px;
+  padding: -2px !important;
+ }
+ 
+ .menu-accadem-list-used{
+  width: 50%;
+  font-size: 12px;
+  margin-left: 0px !important;
+  text-decoration: none;
+ }
+ 
+ .video-lessons {
+  text-align: center !important;
+  margin-left: 100px !important;
+ }  
+}
 
 ul.submenu > li {
   display: block;
  }
 
 ul.submenu{
-  display: none;
+  position: absolute;
+  margin: 10px;
+  opacity: 0; 
+  visibility: hidden;
+  transition: all .3s ease .15s; 
  }
 
 ul.submenu >li> a{
@@ -46,16 +108,25 @@ ul.submenu >li> a{
 
 ul.header-nav-list > li:hover > ul.submenu {
   display: block;
+  opacity: 1; 
+  visibility: visible;
  }
 
 ul.submenu >li> a:hover {
   opacity: 0.5;
- }
+ }  
 
+.header-nav-list--item-link {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+ }
+ 
 .Title {
   display: block;
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 150px;
   letter-spacing: 5px;
   text-align: center;
